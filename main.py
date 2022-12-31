@@ -47,7 +47,7 @@ def add_workout(exercise):
     post_response = requests.post(url="https://api.sheety.co/2874157e0caacca0738b505c1fb28ee9/mohaWorkouts/workouts",
                                   json=workout,
                                   headers=bearer_header)
-    return post_response.text
+
 
 
 for exercise in nutritionix():
