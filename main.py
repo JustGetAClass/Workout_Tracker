@@ -49,6 +49,5 @@ def add_workout(exercise):
                                   headers=bearer_header)
 
 
-
 for exercise in nutritionix():
     add_workout(exercise)
